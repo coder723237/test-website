@@ -15,58 +15,143 @@
 
 <body>
 
+<header>
+
   <h1>HTML</h1>
  <hr>
  <br>
   
   <h1>Goals for the year</h1>
-  
- <hr>
- 
- <nav>
-  <ul>
-   <li>
-    <a href="#html" >Learning HTML</a>
-   </li>
+
+ <nav aria-label="primary-navigation">
+ <ul>
+  <li>
+  <a href="#html" >Learning HTML</a>
+  </li>
    
-   <li>
-    <a href="#vacation" >Planning a vacation</a>
-   </li>
-  </ul>
+  <li>
+  <a href="#vacation" >Planning a vacation</a>
+  </li>
+ </ul>
  </nav>
  
+</header>
  <hr>
  
- <section id="html">
+<main>
+
+<article id="html">
   <h2>Im ready to learn HTML</h2>
-  <p>This is HTML BASICS</p>
-  
+  <p>This is HTML</p>
+  <section>
+  <img src="html.png" alt="HTML5 logo" title="I am learning HTML5" width="300" height="300">
+ 
+ <figure>
+  <figcaption>An exmaple of HTML5 code</figcaption>
+  <p>
+  <code>&lt;h1&gt; Hello, World &lt;/h1&gt;</code>
+  </p>
+ </figure>
+ </section>
+ 
+ <section>
   <h3>My daily schedule</h3>
   <p>Let me tell you how:</p>
  <ol>
- <br> <li> ...I learn more about web dev.</li>
- <br> <li> ...I plan out my schedule.</li>
- <br> <li> ...I use resources from <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/"> MDN </a></abbr>.</li>
+  <li> <br> ...I learn more about web dev.</li>
+  <li> <br> ...I plan out my schedule.</li>
+  <li> <br> ...I use resources from <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/"> MDN </a></abbr>.</li>
  </ol>
+ <aside>
+  <details>
+   <summary>Guess the <mark>number of hours</mark> i code per day</summary>
+   <p>I start at <time datetime="20:00"> 8 pm </time> and I write code for <time datetime="PT3H"> 3 hours </time> every night.</p>
+  </details>
+ </aside>
+ <br>
+ 
+ <table>
+ 
+ <caption>My Dialy Schedules</caption>
+ <thead>
+ <tr>
+  <th>&nbsp;</th>
+  <th id="time" scope="col">Time</th>
+  <th scope="col">Activity</th>
+ </tr>
+ </thead>
+ 
+ <tbody>
+ <tr>
+  <th id="morning" scope="row">Morning</th>
+   <td> <time dateline="08:00">8:00 am</time>-<time dateline="11:00">11:00 am</time> </td>
+   <td>Write Code</td>
+ </tr>
+  
+ <tr>
+  <th scope="row">Break</th>
+  <td> <time dateline="11:00">11:00 am</time>-<time dateline="12:00">12:00 pm</time> </td>
+  <td>Eat Lunch</td>
+ </tr>
+  
+ <tr>
+  <th scope="row">Afternoon</th>
+  <td> <time dateline="12:00">12:00 pm</time>-<time dateline="17:00">5:00 pm</time> </td>
+  <td>Study for Other Courses</td>
+ </tr>
+ 
+ <tr>
+  <th scope="row">Evening</th>
+  <td rowspan="2">All Other Times</td>
+  <td>Free Time</td>
+ </tr>
+ 
+ <tr>
+  <th scope="row">Night</th>
+  <td>Sleep</td>
+ </tr>
+ </tbody>
+ 
+ <tfoot>
+ <tr>
+  <td colspan="3">And thats's what I do every day, 5 days a weak.</td>
+ </tr>
+ </tfoot>
+ 
+ </table>
+ 
  <hr>
  </section>
+</article>
  
- <section id="vacation">
+<article id="vacation">
   <h2>I am also planning a vaccation</h2>
   <p>I have been working hard and <em>really need a gateaway.</em></p>
   <p>I live in kenya and i want to visit Dubai.</p>
   
+ <section>
   <h3>Places I'd like to visit</h3>
  <ul>
-  <li> <p>Want to see the Eifell tower in Paris.</p> </li>
+  <li> <p>I've heard good things about the Caribbean.</p> </li>
+ <figure>
+  <img src="caribbean.jpg" alt="Caribbean Beach" title="I want to visit a Caribbean Beach" width="400" height="225" loading="lazy">
+  <figcaption>Caribbean Beach Gateaway</figcaption>
+ </figure>
   <li> <p>I've heard good things about going here:</p>
   <address>
     Margaritaville Island Reserve Riviera Cancún <br>
     Bahia Petempich Puerto Morelos, Mexico <br>
     Colonia Morelos, México 77580
-  </address> </li>
+  </address> 
+ <figure>
+  <img src="vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock somewhere" loading="lazy" width="400" height="267">
+  <figcaption>A Caribbean Vacation Image</figcaption>
+ </figure>
+  </li>
  </ul>
+ </section>
   
+ <section>
   <!-- TODO: Add more places -->
   <h3>Places I want to avoid</h3>
  <dl>
@@ -80,11 +165,18 @@
   <dd>These are also cold.</dd>
  </dl>
  </section>
+</article>
+ 
+</main>
  <hr>
  
-  &lt; &lt; &lt; &copy; <a href="about.html"> Abdemanaf.Burhan </a> &gt; &gt; &gt;
+<footer>
+
+  <p> &lt; &lt; &lt; &copy; <a href="about.html"> Abdemanaf.Burhan </a> &gt; &gt; &gt; </p>
   
   <p> <a href="#">Back to Top</a> </p>
+  
+</footer>
 
 </body>
 
@@ -94,4 +186,10 @@
 &nbsp; &nbsp; &nbsp;
 &nbsp; &nbsp; &nbsp;
 &nbsp; &nbsp; &nbsp;
+-->
+
+<!--image recources
+unsplash.com to download photos with full rights
+irfanview to edit photos
+tinypng.com to compress photos
 -->
