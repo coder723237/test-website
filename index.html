@@ -32,6 +32,10 @@
   <li>
   <a href="#vacation" >Planning a vacation</a>
   </li>
+  
+  <li>
+  <a href="#contact" >Contact Me</a>
+  </li>
  </ul>
  </nav>
  
@@ -167,6 +171,107 @@
  </section>
 </article>
  
+ <hr>
+ <article id="contact">
+  <h2>Contact Me</h2>
+  <p>I'd Really like to hear from you</p>
+ 
+ <form action="https://httpbin.org/get">
+ 
+ <fieldset>
+ <legend class="label">Personal Info</legend>
+ <p>
+  <label class="label" for="firstName">First Name:</label>
+  <input class="label2" type="text" name="firstName" id="firstName" placeholder="Abdemanaf" autocomplete="on" required>
+ </p>
+ 
+ <p>
+  <label class="label" for="lastName">Last Name:</label>
+  <input class="label2" type="text" name="lastName" id="lastName" placeholder="Burhanuddin" autocomplete="on" required>
+ </p>
+ 
+ <p>
+  <label class="label" for="password">Password: </label>
+  <input class="label2" type="pass" name="password" id="password" placeholder="Your Secret" autocomplete="on" required>
+ </p>
+  
+ <p>
+  <label class="label" for="phone">Phone: </label>
+  <input class="label2" type="tel" name="phone" id="phond" placeholder="07xxxxxxxx" autocomplete="on" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" required>
+ </p>
+  
+ <p>
+  <label class="label" for="decade">Favorite Decade:</label>
+  <input class="label2" type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+ </p>
+ 
+ <p>
+  <label class="label" for="coffee">Favorite coffee: </label>
+  <select class="label2" name="coffee" id="coffee" multiple size="5">
+  
+  <optgroup label="Coffees">
+   <option value="regular coffee">Regular Coffee</option>
+   <option value="iced coffee">Iced Coffee</option>
+  </optgroup>
+  
+  <optgroup label="Expresso Drinks">
+   <option value="latte" selected>Latte</option>
+   <option value="cappuccino">Cappuccino</option>
+   <option value="cartado">Cortado</option>
+   <option value="americano">Americano</option>
+  </optgroup>
+   <option value="other">other</option>
+  </select>
+ </p>
+ </fieldset>
+ <br>
+ <br>
+ 
+ <fieldset>
+ <legend class="label">What is your favorite food?</legend>
+ <p>
+  <input class="label2" type="radio" name="food" id="tacos" value="tacos">
+  <label class="label" for="tacos">Tacos</label>
+ <br>
+  <input class="label2" type="radio" name="food" id="pizza" value="pizza">
+  <label class="label" for="pizza">Pizza</label>
+ <br>
+  <input class="label2" type="radio" name="food" id="other" value="other">
+  <label class="label" for="other">Other</label>
+  
+ </p>
+ <br>
+ <br>
+ 
+ </fieldset>
+  
+ <fieldset>
+ <legend class="label">Do you have pets?</legend>
+  
+ <p>
+  <input class="label2"type="checkbox" namd="pets" id="dog" value="dog">
+  <label class="label"for="dog">Dog</label>
+ </p>
+ 
+ <p>
+  <input class="label2"type="checkbox" namd="pets" id="fish" value="fish">
+  <label class="label"for="fish">Fish</label>
+ </p>
+ 
+ <p>
+  <input class="label2"type="checkbox" namd="pets" id="otherPet" value="otherPet">
+  <label class="label"for="otherPet">Other</label>
+ </p>
+
+ <p>
+  <input class="label2"type="checkbox" namd="pets" id="cat" value="cat">
+  <label class="label"for="cat">Cat</label>
+ </p>
+
+ </fieldset>
+  
+ </form>
+
 </main>
  <hr>
  
